@@ -137,6 +137,10 @@ module.exports = {
       textColor: '#091E42',
       isCloseable: true,
     },
+    /* Clarity Config */
+    clarity: {
+      ID: "lnxpe6skj1", // The Tracking ID provided by Clarity
+    }
   },
   presets: [
     [
@@ -212,9 +216,22 @@ module.exports = {
           {
             to: "/docs/tutorial/what-next",
             from: ["/docs/tutorial/what-is-next"],
+          },
+          {
+            to: "/docs/topics/non-openai-models/local-lm-studio",
+            from: ["/docs/topics/non-openai-models/lm-studio"],
+          },
+          {
+            to: "/docs/notebooks/agentchat_nested_chats_chess",
+            from: ["/docs/notebooks/agentchat_chess"],
           }
         ],
       },
-    ]
+    ],
+    [
+      'docusaurus-plugin-clarity',
+      {
+      }
+    ],
   ],
 };
