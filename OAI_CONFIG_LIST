@@ -2,20 +2,16 @@
     {
         "model": "mixtral-8x7b-32768",
         "api_key": "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",
-        "api_base": "https://api.groq.com/openai/v1"
+        "base_url": "https://api.groq.com/openai/v1"
     },
     {
-        "model": "",
-        "api_key": "<your Azure OpenAI API key here>",
-        "api_base": "<your Azure OpenAI API base here>",
-        "api_type": "azure",
-        "api_version": "2023-07-01-preview"
+        "model": "gemma-7b-it",
+        "api_key": "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",
+        "base_url": "https://api.groq.com/openai/v1"
     },
     {
-        "model": "",
-        "api_key": "<your Azure OpenAI API key here>",
-        "api_base": "<your Azure OpenAI API base here>",
-        "api_type": "azure",
-        "api_version": "2023-07-01-preview"
+        "model": "llama2-70b-4096",
+        "api_key": "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",
+        "base_url": "https://api.groq.com/openai/v1"
     }
 ]
